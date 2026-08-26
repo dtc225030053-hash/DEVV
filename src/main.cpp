@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#define LED_PIN     13          // đổi chân LED
+#define LED_PIN     13          // giữ nguyên chân LED
 #define SENSOR_PIN A0
-int threshold = 300;           // tăng ngưỡng
+int threshold = 300;           // giảm ngưỡng
 
 void loop() {
     int value = analogRead(SENSOR_PIN);
