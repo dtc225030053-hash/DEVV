@@ -1,7 +1,8 @@
 #include <Arduino.h>
-#define LED_PIN     13          // giữ nguyên chân LED
+#define LED_PIN 13
 #define SENSOR_PIN A0
-int threshold = 300;           // giảm ngưỡng
+
+int threshold = 600;
 
 void setup() {
     pinMode(LED_PIN, OUTPUT);
